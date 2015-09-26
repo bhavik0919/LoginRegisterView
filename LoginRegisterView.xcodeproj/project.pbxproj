@@ -7,25 +7,48 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FF5FB7591BAEB9A70014D554 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF5FB7581BAEB9A70014D554 /* ViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		FF5FB75D1BAEBCFF0014D554 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5FB75B1BAEBCFF0014D554 /* RegisterViewController.m */; settings = {ASSET_TAGS = (); }; };
+		FF5FB75E1BAEBCFF0014D554 /* RegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF5FB75C1BAEBCFF0014D554 /* RegisterViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		FF5FB7621BAECF530014D554 /* WelcomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5FB7601BAECF530014D554 /* WelcomeViewController.m */; settings = {ASSET_TAGS = (); }; };
+		FF5FB7631BAECF530014D554 /* WelcomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF5FB7611BAECF530014D554 /* WelcomeViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		FF5FB7671BAF10EF0014D554 /* RecordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5FB7651BAF10EF0014D554 /* RecordViewController.m */; settings = {ASSET_TAGS = (); }; };
+		FF5FB7681BAF10EF0014D554 /* RecordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF5FB7661BAF10EF0014D554 /* RecordViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		FF5FB76C1BAF18440014D554 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5FB76A1BAF18440014D554 /* DetailViewController.m */; settings = {ASSET_TAGS = (); }; };
+		FF5FB76D1BAF18440014D554 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF5FB76B1BAF18440014D554 /* DetailViewController.xib */; settings = {ASSET_TAGS = (); }; };
 		FF89373F1BAE7FFF005349F3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF89373E1BAE7FFF005349F3 /* main.m */; };
 		FF8937421BAE7FFF005349F3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8937411BAE7FFF005349F3 /* AppDelegate.m */; };
 		FF8937451BAE7FFF005349F3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8937441BAE7FFF005349F3 /* ViewController.m */; };
-		FF8937481BAE7FFF005349F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF8937461BAE7FFF005349F3 /* Main.storyboard */; };
 		FF89374A1BAE7FFF005349F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF8937491BAE7FFF005349F3 /* Assets.xcassets */; };
-		FF89374D1BAE7FFF005349F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF89374B1BAE7FFF005349F3 /* LaunchScreen.storyboard */; };
+		FF8937581BAE81BB005349F3 /* Database.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8937571BAE81BB005349F3 /* Database.m */; settings = {ASSET_TAGS = (); }; };
+		FF89375C1BAE8289005349F3 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FF89375B1BAE8289005349F3 /* libsqlite3.0.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FF5FB7581BAEB9A70014D554 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ViewController.xib; path = ../ViewController.xib; sourceTree = "<group>"; };
+		FF5FB75A1BAEBCFF0014D554 /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
+		FF5FB75B1BAEBCFF0014D554 /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
+		FF5FB75C1BAEBCFF0014D554 /* RegisterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RegisterViewController.xib; sourceTree = "<group>"; };
+		FF5FB75F1BAECF530014D554 /* WelcomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WelcomeViewController.h; sourceTree = "<group>"; };
+		FF5FB7601BAECF530014D554 /* WelcomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WelcomeViewController.m; sourceTree = "<group>"; };
+		FF5FB7611BAECF530014D554 /* WelcomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WelcomeViewController.xib; sourceTree = "<group>"; };
+		FF5FB7641BAF10EF0014D554 /* RecordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecordViewController.h; sourceTree = "<group>"; };
+		FF5FB7651BAF10EF0014D554 /* RecordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecordViewController.m; sourceTree = "<group>"; };
+		FF5FB7661BAF10EF0014D554 /* RecordViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RecordViewController.xib; sourceTree = "<group>"; };
+		FF5FB7691BAF18440014D554 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		FF5FB76A1BAF18440014D554 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		FF5FB76B1BAF18440014D554 /* DetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
 		FF89373A1BAE7FFF005349F3 /* LoginRegisterView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginRegisterView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF89373E1BAE7FFF005349F3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FF8937401BAE7FFF005349F3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FF8937411BAE7FFF005349F3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		FF8937431BAE7FFF005349F3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		FF8937441BAE7FFF005349F3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		FF8937471BAE7FFF005349F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FF8937491BAE7FFF005349F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		FF89374C1BAE7FFF005349F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FF89374E1BAE7FFF005349F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF8937561BAE81BB005349F3 /* Database.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Database.h; sourceTree = "<group>"; };
+		FF8937571BAE81BB005349F3 /* Database.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Database.m; sourceTree = "<group>"; };
+		FF89375B1BAE8289005349F3 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF89375C1BAE8289005349F3 /* libsqlite3.0.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +66,7 @@
 		FF8937311BAE7FFF005349F3 = {
 			isa = PBXGroup;
 			children = (
+				FF89375B1BAE8289005349F3 /* libsqlite3.0.tbd */,
 				FF89373C1BAE7FFF005349F3 /* LoginRegisterView */,
 				FF89373B1BAE7FFF005349F3 /* Products */,
 			);
@@ -58,13 +83,26 @@
 		FF89373C1BAE7FFF005349F3 /* LoginRegisterView */ = {
 			isa = PBXGroup;
 			children = (
+				FF8937561BAE81BB005349F3 /* Database.h */,
+				FF8937571BAE81BB005349F3 /* Database.m */,
 				FF8937401BAE7FFF005349F3 /* AppDelegate.h */,
 				FF8937411BAE7FFF005349F3 /* AppDelegate.m */,
 				FF8937431BAE7FFF005349F3 /* ViewController.h */,
 				FF8937441BAE7FFF005349F3 /* ViewController.m */,
-				FF8937461BAE7FFF005349F3 /* Main.storyboard */,
+				FF5FB7581BAEB9A70014D554 /* ViewController.xib */,
+				FF5FB75F1BAECF530014D554 /* WelcomeViewController.h */,
+				FF5FB7601BAECF530014D554 /* WelcomeViewController.m */,
+				FF5FB7611BAECF530014D554 /* WelcomeViewController.xib */,
+				FF5FB75A1BAEBCFF0014D554 /* RegisterViewController.h */,
+				FF5FB75B1BAEBCFF0014D554 /* RegisterViewController.m */,
+				FF5FB75C1BAEBCFF0014D554 /* RegisterViewController.xib */,
+				FF5FB7641BAF10EF0014D554 /* RecordViewController.h */,
+				FF5FB7651BAF10EF0014D554 /* RecordViewController.m */,
+				FF5FB7661BAF10EF0014D554 /* RecordViewController.xib */,
+				FF5FB7691BAF18440014D554 /* DetailViewController.h */,
+				FF5FB76A1BAF18440014D554 /* DetailViewController.m */,
+				FF5FB76B1BAF18440014D554 /* DetailViewController.xib */,
 				FF8937491BAE7FFF005349F3 /* Assets.xcassets */,
-				FF89374B1BAE7FFF005349F3 /* LaunchScreen.storyboard */,
 				FF89374E1BAE7FFF005349F3 /* Info.plist */,
 				FF89373D1BAE7FFF005349F3 /* Supporting Files */,
 			);
@@ -136,9 +174,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF89374D1BAE7FFF005349F3 /* LaunchScreen.storyboard in Resources */,
+				FF5FB7591BAEB9A70014D554 /* ViewController.xib in Resources */,
+				FF5FB76D1BAF18440014D554 /* DetailViewController.xib in Resources */,
+				FF5FB7681BAF10EF0014D554 /* RecordViewController.xib in Resources */,
+				FF5FB7631BAECF530014D554 /* WelcomeViewController.xib in Resources */,
 				FF89374A1BAE7FFF005349F3 /* Assets.xcassets in Resources */,
-				FF8937481BAE7FFF005349F3 /* Main.storyboard in Resources */,
+				FF5FB75E1BAEBCFF0014D554 /* RegisterViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,32 +190,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF5FB75D1BAEBCFF0014D554 /* RegisterViewController.m in Sources */,
 				FF8937451BAE7FFF005349F3 /* ViewController.m in Sources */,
 				FF8937421BAE7FFF005349F3 /* AppDelegate.m in Sources */,
+				FF5FB76C1BAF18440014D554 /* DetailViewController.m in Sources */,
+				FF8937581BAE81BB005349F3 /* Database.m in Sources */,
 				FF89373F1BAE7FFF005349F3 /* main.m in Sources */,
+				FF5FB7671BAF10EF0014D554 /* RecordViewController.m in Sources */,
+				FF5FB7621BAECF530014D554 /* WelcomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		FF8937461BAE7FFF005349F3 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FF8937471BAE7FFF005349F3 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		FF89374B1BAE7FFF005349F3 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FF89374C1BAE7FFF005349F3 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		FF89374F1BAE7FFF005349F3 /* Debug */ = {
@@ -300,6 +327,7 @@
 				FF8937531BAE7FFF005349F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
